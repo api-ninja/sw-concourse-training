@@ -21,7 +21,7 @@ meta:
   url: https://pipes.starkandwayne.com
 name: api-ninja-nginx
 release:
-  name: api-ninja-nginx
+  name: nginx-release
 releases:
 - name: nginx
   version: latest
