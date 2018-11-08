@@ -8,7 +8,7 @@ instance_groups:
   instances: 1
   jobs:
   - name: nginx
-    release: nginx
+    release: api-ninja-nginx
   name: nginx
   networks:
   - name: default
@@ -19,9 +19,9 @@ meta:
   pipeline: api-ninja-nginx-demo
   target: training
   url: https://pipes.starkandwayne.com
-name: ninja-release
+name: api-ninja-release
 releases:
-- name: ninja-release
+- name: api-ninja-release
   version: latest
 stemcells:
 - alias: default
