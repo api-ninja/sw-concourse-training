@@ -9,7 +9,7 @@ export BOSH_ENVIRONMENT=training
 
 export CF_TRACE=true
 
-bosh alias-env ${BOSH_ENVIRONMENT} --ca-cert training-bosh.pem -e ${BOSH_DIRECTOR}
+bosh alias-env ${BOSH_ENVIRONMENT} --ca-cert ${CA_CERT_URL} -e ${BOSH_DIRECTOR}
 
 cd source-code/nginx_release
 
