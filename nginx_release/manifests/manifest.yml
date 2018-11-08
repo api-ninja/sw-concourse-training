@@ -19,7 +19,7 @@ meta:
   pipeline: api-ninja-nginx-demo
   target: training
   url: https://pipes.starkandwayne.com
-name: api-ninja-nginx
+name: ninja-release
 release:
   name: nginx-release
 releases:
