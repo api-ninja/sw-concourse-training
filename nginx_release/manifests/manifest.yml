@@ -19,9 +19,9 @@ meta:
   pipeline: api-ninja-nginx-demo
   target: training
   url: https://pipes.starkandwayne.com
-name: api-ninja-release
+name: api-ninja-nginx
 releases:
-- name: api-ninja-release
+- name: api-ninja-nginx
   version: latest
 stemcells:
 - alias: default
