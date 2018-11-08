@@ -20,10 +20,8 @@ meta:
   target: training
   url: https://pipes.starkandwayne.com
 name: ninja-release
-release:
-  name: ninja-release
 releases:
-- name: nginx
+- name: ninja-release
   version: latest
 stemcells:
 - alias: default
