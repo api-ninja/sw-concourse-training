@@ -53,7 +53,7 @@ jobs:
         BOSH_ENVIRONMENT: training
       platform: linux
       run:
-        path: source-code/nginx_release/ci/tasks/upload-release-with-vars.sh
+        path: source-code/nginx_release/ci/tasks/upload-release.sh
     task: upload-release
   public: true
 - name: job-deploy-release
@@ -108,7 +108,7 @@ jobs:
         BOSH_ENVIRONMENT: training
       platform: linux
       run:
-        path: source-code/nginx_release/ci/tasks/deploy-release-with-vars.sh
+        path: source-code/nginx_release/ci/tasks/deploy-release.sh
     task: deploy-release
   public: true
 meta:
